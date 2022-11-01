@@ -7,9 +7,9 @@ class Task {
             Console.WriteLine("not both");
         }
         else{
-        for(int i=2;i<=(Convert.ToInt32(n^1)/2)+1;i++){
+        for(int i=2;i<n/2;i++){
             if (n==2){
-		countinue;
+		continue;
 		}
 	     if(n%i==0){
                 isPrime=false;
